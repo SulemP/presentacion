@@ -1,0 +1,23 @@
+#cabezote{
+    font-size: 1rem;
+    position: fixed;
+    height: 3rem;
+    z-index: 100;
+}
+
+.cabezote__menu{
+    padding-top: 3rem;
+}
+
+.menu{
+    display: inline-block;
+    text-transform: uppercase;
+    margin-right: 2rem;
+    color: black;
+}
+
+.inicio::after{
+    background-color: var(--color-sec);
+    height: 1rem;
+    width: 100%;
+}
