@@ -14,17 +14,26 @@
     width:18.75rem;
     background: var(--color-prim);
     border-radius:150px;
-    /* -webkit-border-radius:50px; */
+}
+
+.circulo2{
+    position:relative;
+    top: 8%;
+    left: 6%;
+    height:16rem;
+    width:16rem;
+    background: var(--color-sec);
+    border-radius:140px;
 }
 
 
 #yo{
     object-fit: cover;
-    height: 15rem;
-    width: 15rem;
+    height: 14rem;
+    width: 14rem;
     border-radius: 7.5rem;
-    margin-top: 1.8rem;
-    margin-left: 2rem
+    margin-top: 6%;
+    margin-left: 6%;
 }
 
 .rectangulo{
@@ -49,13 +58,13 @@
 }
 
 .desarrolladora{
-    color: gray;
+    color: var(--color-sec);
     font-size: 1.5rem;
     font-family: 'Raleway', sans-serif;
 }
 
 .full{
-    color: gray;
+    color: var(--color-sec);
     font-size: 1rem;
     font-family: 'Raleway', sans-serif;
 }

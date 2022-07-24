@@ -1,23 +1,88 @@
-#cabezote{
-    font-size: 1rem;
-    position: fixed;
-    height: 3rem;
-    z-index: 100;
+#cabezote {
+  width: 100%;
+  height: 80px;
+  padding: 10px 0px;
+  position: fixed;
+  border-bottom: 1px solid transparent;
+  background-color: var(--color-ter);
+  z-index: 100;
 }
 
-.cabezote__menu{
-    padding-top: 3rem;
+#cabezote:hover .menu a {
+  color: white;
 }
 
-.menu{
-    display: inline-block;
-    text-transform: uppercase;
-    margin-right: 2rem;
-    color: black;
+.cabezote__menu {
+  margin-top: 1rem;
+  padding: 0px;
+  text-align: right;
 }
 
-.inicio::after{
-    background-color: var(--color-sec);
-    height: 1rem;
-    width: 100%;
+.link-active .inicio {
+  color: #060A0F !important;
 }
+
+.link-active .inicio:after {
+  width: 100%;
+  background-color: #060A0F;
+}
+
+.menu {
+  display: inline-block;
+  padding: 0px 10px;
+}
+
+.menu a {
+  text-decoration: none;
+  position: relative;
+  font-size: 1rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: white;
+}
+
+.menu a::before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  background-color: transparent;
+  height: 1px;
+}
+
+.menu a::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0px;
+  width: 0%;
+  height: 1px;
+  background-color: transparent;
+}
+
+.menu a:hover {
+  text-decoration: none;
+  color: white;
+}
+
+.menu .inicio:hover::before{
+  width: 0%;
+  background-color: black;
+}
+
+.menu .inicio:hover::after{
+  width: 100%;
+  background-color: black;
+}
+
+.menu a:hover::before{
+  width: 0%;
+  background-color: white;
+}
+
+.menu a:hover::after{
+  width: 100%;
+  background-color: white;
+}
+
+
+

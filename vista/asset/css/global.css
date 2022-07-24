@@ -1,15 +1,52 @@
 :root{
-    --color-sec: purple;
-    --color-prim: rgb(222, 191, 240); 
+    --color-prim: rgb(168, 136, 136);
+    --color-sec: rgb(107, 75, 75);
+    --color-ter: rgb( 134, 100, 100); 
 }
 
 a{
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 
-.tSlow{
-    -webkit-transition: all 0.5s ease-in-out;
-    transition: all 0.5s ease-in-out;
+.tSlow, .cabezote__menu .menu a::after, .cabezote__menu .menu a::before, .cabezote__menu .menu a, .cabezote__menu .link-active .inicio::after, .cabezote__menu, .hexa {
+    -webkit-transition: all 0.7s ease-in-out;
+    transition: all 0.7s ease-in-out;
+  }
+
+.sub{
+    color: var(--color-ter);
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
 }
 
+.ej{
+    height: 8rem;
+    width: 8rem;
+    object-fit: cover;
+    float: right;
+    margin-right: 1rem;
+    margin-top: 1rem;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+}
+
+.hexa{
+    height: 10rem;
+    width: 10rem;
+    margin:auto;
+    opacity: .6;
+    background-color: var(--color-ter);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    clip-path: polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%);
+    z-index: 3;
+}
+
+.hexa:hover{
+    opacity: 1;
+}

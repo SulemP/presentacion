@@ -1,0 +1,47 @@
+#portafolio{
+    margin-top: 8rem;
+}
+
+.bloque{
+    height: 27rem;
+    margin-top: 1.5rem;
+    background-color: var(--color-prim);
+}
+
+.portafolio__text{
+    margin-top: 5%;
+    margin-left: 2%;
+    width: 40%;
+    text-transform: uppercase;
+}
+
+.portafolio__h6{
+    background-color: rgba(255, 255, 255, 0.5);
+    padding: 1rem;
+}
+
+.portafolio__p{
+    margin-top: 1rem;
+    width: 60%;
+    background-color: black;
+    padding: 1rem;
+    color: antiquewhite;
+}
+
+.hexagonos{
+    margin-top: 20%;
+}
+
+.hexagonos__top{
+    margin-top: -5%;
+    padding: 0%;
+}
+
+.izquierda{
+    margin-left: 38.5%;
+}
+
+.derecha{
+    margin-right: 38.5%;
+}
+
