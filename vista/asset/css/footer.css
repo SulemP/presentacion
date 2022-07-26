@@ -1,0 +1,37 @@
+#footer{
+    margin-top: 5rem;
+    background-color: var(--color-sec);
+    padding: 2rem;
+}
+
+.despedida{
+    /* margin-top: 2rem; */
+    color: aliceblue;
+    text-align: center;
+}
+
+.despedida__a{
+    text-transform: uppercase;
+}
+
+.contacto{
+    color: aliceblue;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 4rem;
+}
+
+.bi{
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.contacto__a{
+    color: aliceblue;
+}
+
+.contacto__a:hover{
+    color: aliceblue;
+    font-weight: bold;
+}
